@@ -396,7 +396,7 @@ PAGES = {
 }
 
 #%% Streamlit - select page
-page = st.sidebar.selectbox("Select a page:", options=list(PAGES.keys()))
+page = st.sidebar.selectbox("Select more insight below:", options=list(PAGES.keys()))
 
 # Page switch
 PAGES[page]()
